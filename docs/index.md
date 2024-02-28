@@ -1,33 +1,35 @@
-# Generalizable whole-body global manipulation of deformable linear objects by dual-arm robot in 3-D constrained environments
+# Contact-Implicit Model Predictive Control for Dexterous In-hand Manipulation: A Long-Horizon and Robust Approach
 
-The paper is under review.
-
-The paper is the journal version of [this (ICRA 2023)](https://mingrui-yu.github.io/DLO_planning/).
+The paper is submitted to [IROS2024](https://iros2024-abudhabi.org/).
 
 The source code will be released after the publication of the paper.
 
-[[arXiv](https://arxiv.org/abs/2310.09899)]
+<!-- [[arXiv](https://arxiv.org/abs/2310.09899)] -->
+
+Paper pdf coming soom!
 
 ## Video
 
-<p align="center">
+Coming soon!
+
+<!-- <p align="center">
 <iframe width="800" height="450" src="./final_whole.mp4" title="23_DLO_planning_journal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
-</p>
+</p> -->
 
 ## Abstract
 
-Constrained environments, compared with open spaces without other objects, are more common in practical applications of manipulating deformable linear objects (DLOs) by robots, where movements of both DLOs and robot manipulators should be constrained and unintended collision should be avoided. This task is high-dimensional and highly constrained owing to the highly deformable DLOs, dual-arm robots with high degrees of freedom, and 3-D complex environments, which render global planning extremely challenging. Furthermore, accurate DLO models needed by planning are often unavailable owing to their strong nonlinearity and diversity, resulting in unreliable planned paths.
+Dexterous in-hand manipulation is an essential skill of production and life. Nevertheless, the highly stiff and mutable features of contacts cause limitations to real-time contact discovery and inference, which degrades the performance of model-based methods.
 
-This article focuses on the global moving and shaping of DLOs in constrained environments by dual-arm robots. The main objectives are 1) to efficiently and accurately accomplish this task, and 2) to achieve generalizable and robust manipulation of various DLOs.
+Inspired by recent advancements in contact-rich locomotion and manipulation, this paper proposes a novel model-based approach to control dexterous in-hand manipulation and overcome the current limitations.
 
-To this end, we propose a complementary framework with whole-body planning and control using appropriate DLO model representations. First, a global planner is proposed to efficiently find feasible solutions based on a simplified DLO energy model, which considers the full system states and all constraints to plan more reliable paths.
-Then, a closed-loop manipulation scheme is proposed to compensate for the modeling errors and enhance the robustness and accuracy, which incorporates a constrained model predictive controller to track the planned path as guidance while real-time adjusting the robot motion based on an adaptive DLO motion model. 
-This framework systematically considers multiple constraints for this problem, including stable deformation, overstretch prevention, closed-chain movements, and collision avoidance. The key novelty is that it can efficiently solve the high-dimensional problem subject to all those constraints and generalize to various DLOs without elaborate model identifications.
+The proposed approach has the attractive feature, which allows the robot to robustly execute long-horizon in-hand manipulation without pre-defined contact sequences or separated planning procedures. Specifically, we design a contact-implicit model predictive controller at high-level to generate real-time contact plans, which are executed by the low-level tracking controller. 
 
-Experiments demonstrate that our framework can accomplish considerably more complicated tasks than existing works. It achieves a 100% planning success rate among thousands of trials with an average time cost of less than 15 second, and a 100% manipulation success rate among 135 real-world tests on five different DLOs.
+Compared with other model-based methods, such a long-horizon feature enables replanning and robust execution of contact-rich motions to achieve large-displacement in-hand tasks more efficiently; Compared with existing learning-based methods, the proposed approach achieves the dexterity and also generalizes to different objects without any pre-training.
+
+Detailed simulations and ablation studies demonstrate the efficiency and effectiveness of our method. It runs at 20Hz on the 23-degree-of-freedom long-horizon in-hand object rotation task.
 
 
 ## Contact
-If you have any question, feel free to contact the authors: Mingrui Yu, [mingruiyu98@gmail.com](mailto:mingruiyu98@gmail.com) .
+If you have any question, feel free to contact the authors: Yongpeng Jiang, [jiangyp19@gmail.com](mailto:jiangyp19@gmail.com) .
 
-Mingrui Yu's Homepage is at [mingrui-yu.github.io](https://mingrui-yu.github.io).
+Yongpeng Jiang's Homepage is at [director-of-g.github.io](https://director-of-g.github.io).
