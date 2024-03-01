@@ -6,7 +6,7 @@ The source code will be released after the publication of the paper.
 
 <!-- [[arXiv](https://arxiv.org/abs/2310.09899)] -->
 
-Paper pdf coming soom!
+You can access the pre-print version on [arXiv](https://arxiv.org/abs/2402.18897)!
 
 ## Video
 
