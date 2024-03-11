@@ -4,7 +4,9 @@ The paper is submitted to [IROS2024](https://iros2024-abudhabi.org/).
 
 The source code will be released after the publication of the paper.
 
-[[arXiv](https://arxiv.org/abs/2402.18897)]
+<!-- [[arXiv](https://arxiv.org/abs/2310.09899)] -->
+
+You can access the pre-print version on [arXiv](https://arxiv.org/abs/2402.18897)!
 
 ## Video
 
