@@ -10,8 +10,6 @@ You can access the pre-print version on [arXiv](https://arxiv.org/abs/2402.18897
 
 ## Video
 
-Coming soon!
-
 <p align="center">
 <iframe width="800" height="450" src="./video_short.mp4" title="24_inhand_manipulation_iros" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 </p>
