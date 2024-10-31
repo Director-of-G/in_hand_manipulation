@@ -1,8 +1,8 @@
 # Contact-Implicit Model Predictive Control for Dexterous In-hand Manipulation: A Long-Horizon and Robust Approach
 
-The paper is submitted to [IROS2024](https://iros2024-abudhabi.org/).
+The paper has been accepted by [IROS2024](https://iros2024-abudhabi.org/).
 
-The source code will be released after the publication of the paper.
+We are currently extending it into journal version, and the code is expected to be released after that!
 
 <!-- [[arXiv](https://arxiv.org/abs/2310.09899)] -->
 
